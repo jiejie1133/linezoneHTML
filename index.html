@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texas Commercial Property Tax Appeals | Expert Tax Reduction Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --navy-dark: #0a1628;
+            --navy-primary: #1a2d4a;
+            --navy-light: #2d4a6f;
+            --gold-primary: #c9a961;
+            --gold-light: #d4bc7c;
+            --gold-dark: #a8924f;
+            --white: #ffffff;
+            --cream: #f8f7f4;
+            --slate: #64748b;
+            --slate-dark: #334155;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--cream);
+            color: var(--navy-dark);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 22, 40, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 16px 0;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--white);
+            text-decoration: none;
+            letter-spacing: 0.5px;
+        }
+
+        .logo span {
+            color: var(--gold-primary);
+        }
+
+        .nav-cta {
+            background: var(--gold-primary);
+            color: var(--navy-dark);
+            padding: 12px 24px;
+            border-radius: 2px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .nav-cta:hover {
+            background: var(--gold-light);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy-primary) 100%);
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://images.unsplash.com/photo-1460317442991-0ec209397118?w=1920&q=80') center/cover no-repeat;
+            opacity: 0.15;
+        }
+
+        .hero .container {
+            position: relative;
+            z-index: 1;
+            padding-top: 80px;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(201, 169, 97, 0.15);
+            border: 1px solid var(--gold-primary);
+            color: var(--gold-primary);
+            padding: 8px 16px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 32px;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            color: var(--white);
+            line-height: 1.1;
+            margin-bottom: 24px;
+        }
+
+        .hero h2 {
+            font-family: 'Inter', sans-serif;
+            font-size: clamp(1.1rem, 2vw, 1.35rem);
+            color: rgba(255, 255, 255, 0.85);
+            font-weight: 300;
+            max-width: 700px;
+            line-height: 1.7;
+            margin-bottom: 48px;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 48px;
+            margin-bottom: 48px;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            border-left: 3px solid var(--gold-primary);
+            padding-left: 24px;
+        }
+
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            color: var(--gold-primary);
+            line-height: 1;
+        }
+
+        .stat-label {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.95rem;
+            margin-top: 8px;
+        }
+
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--gold-primary);
+            color: var(--navy-dark);
+            padding: 18px 40px;
+            border-radius: 2px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.05rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(201, 169, 97, 0.3);
+        }
+
+        .hero-cta:hover {
+            background: var(--gold-light);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 30px rgba(201, 169, 97, 0.4);
+        }
+
+        .hero-cta svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .trust-badge {
+            margin-top: 64px;
+            padding-top: 32px;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .trust-badge p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.85rem;
+            margin-bottom: 16px;
+        }
+
+        .trust-badges-grid {
+            display: flex;
+            gap: 32px;
+            flex-wrap: wrap;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 0.9rem;
+        }
+
+        .trust-item svg {
+            width: 20px;
+            height: 20px;
+            color: var(--gold-primary);
+        }
+
+        /* How It Works */
+        .how-it-works {
+            padding: 120px 0;
+            background: var(--white);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 80px;
+        }
+
+        .section-label {
+            color: var(--gold-dark);
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+
+        .section-header h2 {
+            font-size: clamp(2rem, 4vw, 2.75rem);
+            color: var(--navy-dark);
+            margin-bottom: 20px;
+        }
+
+        .section-header p {
+            color: var(--slate);
+            font-size: 1.1rem;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .step {
+            background: var(--cream);
+            padding: 48px 40px;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .step:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+        }
+
+        .step-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            color: var(--gold-primary);
+            opacity: 0.3;
+            line-height: 1;
+            margin-bottom: 24px;
+        }
+
+        .step-icon {
+            width: 56px;
+            height: 56px;
+            background: var(--navy-primary);
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+        }
+
+        .step-icon svg {
+            width: 28px;
+            height: 28px;
+            color: var(--gold-primary);
+        }
+
+        .step h3 {
+            font-size: 1.4rem;
+            color: var(--navy-dark);
+            margin-bottom: 16px;
+        }
+
+        .step p {
+            color: var(--slate);
+            line-height: 1.8;
+        }
+
+        /* Trust & Authority */
+        .trust {
+            padding: 120px 0;
+            background: var(--navy-dark);
+            color: var(--white);
+        }
+
+        .trust .section-label {
+            color: var(--gold-primary);
+        }
+
+        .trust .section-header h2 {
+            color: var(--white);
+        }
+
+        .trust .section-header p {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+            margin-top: 60px;
+        }
+
+        .trust-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 40px 32px;
+            transition: all 0.3s ease;
+        }
+
+        .trust-card:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: var(--gold-primary);
+        }
+
+        .trust-card-icon {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 24px;
+        }
+
+        .trust-card-icon svg {
+            width: 100%;
+            height: 100%;
+            color: var(--gold-primary);
+        }
+
+        .trust-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        .trust-card p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .asset-types {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            margin-top: 60px;
+            flex-wrap: wrap;
+        }
+
+        .asset-type {
+            text-align: center;
+            padding: 32px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 2px;
+            min-width: 160px;
+        }
+
+        .asset-type svg {
+            width: 48px;
+            height: 48px;
+            color: var(--gold-primary);
+            margin-bottom: 16px;
+        }
+
+        .asset-type span {
+            display: block;
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        /* Contact Form */
+        .contact {
+            padding: 120px 0;
+            background: var(--cream);
+        }
+
+        .contact-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: start;
+        }
+
+        @media (max-width: 968px) {
+            .contact-layout {
+                grid-template-columns: 1fr;
+                gap: 60px;
+            }
+        }
+
+        .contact-info h2 {
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            color: var(--navy-dark);
+            margin-bottom: 24px;
+        }
+
+        .contact-info > p {
+            color: var(--slate);
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .contact-features {
+            margin-top: 40px;
+        }
+
+        .contact-feature {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .contact-feature svg {
+            width: 24px;
+            height: 24px;
+            color: var(--gold-primary);
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .contact-feature h4 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--navy-dark);
+            margin-bottom: 4px;
+        }
+
+        .contact-feature p {
+            color: var(--slate);
+            font-size: 0.9rem;
+        }
+
+        .contact-form {
+            background: var(--white);
+            padding: 48px;
+            box-shadow: 0 4px 40px rgba(0, 0, 0, 0.08);
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        label {
+            display: block;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--navy-dark);
+            margin-bottom: 8px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid #e2e8f0;
+            border-radius: 2px;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            color: var(--navy-dark);
+            transition: all 0.2s ease;
+            background: var(--white);
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--navy-primary);
+            box-shadow: 0 0 0 3px rgba(26, 45, 74, 0.1);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .file-upload {
+            border: 2px dashed #e2e8f0;
+            padding: 32px;
+            text-align: center;
+            border-radius: 2px;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .file-upload:hover {
+            border-color: var(--navy-primary);
+            background: rgba(26, 45, 74, 0.02);
+        }
+
+        .file-upload.has-file {
+            border-color: var(--gold-primary);
+            background: rgba(201, 169, 97, 0.05);
+        }
+
+        .file-upload input {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .file-upload svg {
+            width: 32px;
+            height: 32px;
+            color: var(--slate);
+            margin-bottom: 12px;
+        }
+
+        .file-upload p {
+            color: var(--slate);
+            font-size: 0.9rem;
+        }
+
+        .file-upload span {
+            color: var(--gold-dark);
+            font-size: 0.85rem;
+        }
+
+        .file-name {
+            margin-top: 12px;
+            padding: 8px 12px;
+            background: rgba(201, 169, 97, 0.1);
+            border-radius: 2px;
+            color: var(--navy-dark);
+            font-size: 0.85rem;
+            display: none;
+        }
+
+        .file-name.show {
+            display: block;
+        }
+
+        .submit-btn {
+            width: 100%;
+            background: var(--gold-primary);
+            color: var(--navy-dark);
+            padding: 18px;
+            border: none;
+            border-radius: 2px;
+            font-family: 'Inter', sans-serif;
+            font-size: 1.05rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 8px;
+        }
+
+        .submit-btn:hover {
+            background: var(--gold-light);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(201, 169, 97, 0.3);
+        }
+
+        .form-disclaimer {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+        }
+
+        .form-disclaimer p {
+            color: var(--slate);
+            font-size: 0.85rem;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--navy-dark);
+            color: rgba(255, 255, 255, 0.6);
+            padding: 60px 0 40px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 60px;
+            margin-bottom: 48px;
+        }
+
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+        }
+
+        .footer-brand p {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.9rem;
+            line-height: 1.8;
+            margin-top: 16px;
+            max-width: 300px;
+        }
+
+        .footer-heading {
+            color: var(--white);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--gold-primary);
+        }
+
+        .footer-bottom {
+            padding-top: 32px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .footer-bottom p {
+            font-size: 0.85rem;
+        }
+
+        .footer-legal {
+            display: flex;
+            gap: 24px;
+        }
+
+        .footer-legal a {
+            color: rgba(255, 255, 255, 0.5);
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+
+        .footer-legal a:hover {
+            color: var(--white);
+        }
+
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(10, 22, 40, 0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal {
+            background: var(--white);
+            padding: 60px 48px;
+            max-width: 540px;
+            width: 90%;
+            text-align: center;
+            transform: translateY(20px);
+            transition: transform 0.3s ease;
+        }
+
+        .modal-overlay.active .modal {
+            transform: translateY(0);
+        }
+
+        .modal-icon {
+            width: 64px;
+            height: 64px;
+            background: rgba(201, 169, 97, 0.15);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+        }
+
+        .modal-icon svg {
+            width: 32px;
+            height: 32px;
+            color: var(--gold-primary);
+        }
+
+        .modal h3 {
+            font-size: 1.75rem;
+            color: var(--navy-dark);
+            margin-bottom: 16px;
+        }
+
+        .modal p {
+            color: var(--slate);
+            font-size: 1.05rem;
+            line-height: 1.7;
+            margin-bottom: 32px;
+        }
+
+        .modal-btn {
+            background: var(--navy-primary);
+            color: var(--white);
+            padding: 16px 40px;
+            border: none;
+            border-radius: 2px;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .modal-btn:hover {
+            background: var(--navy-dark);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-stats {
+                gap: 32px;
+            }
+
+            .stat-number {
+                font-size: 2.5rem;
+            }
+
+            .trust-badges-grid {
+                flex-direction: column;
+                gap: 16px;
+            }
+
+            .steps-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .asset-types {
+                gap: 24px;
+            }
+
+            .contact-form {
+                padding: 32px 24px;
+            }
+
+            .footer-content {
+                text-align: center;
+            }
+
+            .footer-brand p {
+                max-width: none;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">PropQuant <span>LLC</span></a>
+            <a href="#contact" class="nav-cta">Free Consultation</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <span class="hero-badge">Serving Texas Commercial Property Owners</span>
+            <h1>Expert Commercial Property Tax Appeals in Texas</h1>
+            <h2>Don't overpay on your property taxes. We leverage decades of local experience to fight inflated government valuations and secure substantial savings for property owners.</h2>
+
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">90%</div>
+                    <div class="stat-label">Success Rate on Appeals</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">$30M+</div>
+                    <div class="stat-label">Tax Savings Secured</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">400+</div>
+                    <div class="stat-label">Properties Represented</div>
+                </div>
+            </div>
+
+            <a href="#contact" class="hero-cta">
+                Get Your Free Tax Reduction Estimate
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+            </a>
+
+            <div class="trust-badge">
+                <p>No Risk — No Fee Unless We Win</p>
+                <div class="trust-badges-grid">
+                    <div class="trust-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                        <span>Licensed Texas Tax Professionals</span>
+                    </div>
+                    <div class="trust-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v7m0 0v1m0-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3z" />
+                        </svg>
+                        <span>10+ Years Combined Experience</span>
+                    </div>
+                    <div class="trust-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                        <span>Trusted by Institutional Owners</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Simple Process</p>
+                <h2>Three Steps to Significant Tax Savings</h2>
+                <p>We handle the complex appeal process end-to-end. You simply provide authorization and basic property data — our team manages everything else.</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 36v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <h3>Free Assessment</h3>
+                    <p>We analyze your property's purchase price against the current inflated tax assessment to identify the gap and project potential tax savings. This initial evaluation is completely complimentary with no obligation.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                    </div>
+                    <h3>Sign & Upload</h3>
+                    <p>Execute a straightforward representation agreement via DocuSign and provide essential operating documentation — profit & loss statements, rent rolls, or other relevant financial data for your property.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7V3m0 18V3m0 0h-3M3 3h3" />
+                        </svg>
+                    </div>
+                    <h3>We Fight for You</h3>
+                    <p>Our specialists prepare a comprehensive 40+ page appeal package including detailed rent comparables, competitive property analysis, and market valuations. We negotiate directly with appraisal districts on your behalf.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Authority -->
+    <section class="trust">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Why Choose Us</p>
+                <h2>Deep Texas Expertise. Proven Results.</h2>
+                <p>Commercial property tax appeals require specialized knowledge of local appraisal practices, market dynamics, and legal procedures. Our firm delivers all three.</p>
+            </div>
+
+            <div class="trust-grid">
+                <div class="trust-card">
+                    <div class="trust-card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                    </div>
+                    <h3>Major Market Coverage</h3>
+                    <p>We serve major markets across Texas and California — Dallas, Houston, Austin, San Antonio, Fort Worth, Miami, Los Angeles, and San Francisco. Our deep relationships with local appraisal districts and understanding of regional valuation methods give your appeal a decisive advantage.</p>
+                </div>
+
+                <div class="trust-card">
+                    <div class="trust-card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                        </svg>
+                    </div>
+                    <h3>Complex Asset Specialists</h3>
+                    <p>We handle sophisticated commercial properties — multifamily communities, retail centers, industrial warehouses, and mixed-use developments. These complex assets require nuanced valuation approaches that general practitioners cannot provide.</p>
+                </div>
+
+                <div class="trust-card">
+                    <div class="trust-card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                        </svg>
+                    </div>
+                    <h3>Documented Excellence</h3>
+                    <p>Our appeal submissions are thorough, data-driven, and professionally presented. Each package includes extensive market analysis, comparable property documentation, and financial exhibits that appraisal districts respect and cannot easily dismiss.</p>
+                </div>
+            </div>
+
+            <div class="asset-types">
+                <div class="asset-type">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                    <span>Multifamily / Apartments</span>
+                </div>
+                <div class="asset-type">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                    </svg>
+                    <span>Retail / Shopping Centers</span>
+                </div>
+                <div class="asset-type">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1" />
+                    </svg>
+                    <span>Industrial / Warehouse</span>
+                </div>
+                <div class="asset-type">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+                    </svg>
+                    <span>Mixed-Use Developments</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <h2>Start Your Free Property Tax Analysis</h2>
+                    <p>Complete the form to receive a no-obligation assessment of your property's tax appeal potential. If we identify significant savings opportunities, we'll outline our representation terms and next steps.</p>
+
+                    <div class="contact-features">
+                        <div class="contact-feature">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            </svg>
+                            <div>
+                                <h4>Confidential Consultation</h4>
+                                <p>All information is held in strict confidence under attorney-client privilege protocols.</p>
+                            </div>
+                        </div>
+                        <div class="contact-feature">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <div>
+                                <h4>Rapid Response</h4>
+                                <p>Our team reviews submissions within 24 hours and contacts qualified properties promptly.</p>
+                            </div>
+                        </div>
+                        <div class="contact-feature">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                            </svg>
+                            <div>
+                                <h4>Clear Economics</h4>
+                                <p>We provide transparent fee structures with payment due only upon successful tax reduction.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="appeal-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="title">Title / Role</label>
+                                <select id="title" name="title" required>
+                                    <option value="">Select your title</option>
+                                    <option value="owner">Owner</option>
+                                    <option value="ceo">CEO / President</option>
+                                    <option value="cfo">CFO</option>
+                                    <option value="partner">Managing Partner</option>
+                                    <option value="director">Director of Real Estate</option>
+                                    <option value="asset_manager">Asset Manager</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company / LLC Name</label>
+                                <input type="text" id="company" name="company" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="propertyAddress">Property Address (Full)</label>
+                            <input type="text" id="propertyAddress" name="propertyAddress" placeholder="Street, City, State, ZIP" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Additional Details (Optional)</label>
+                            <textarea id="message" name="message" placeholder="Property type, current assessed value, or any specific concerns..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Upload Operating Data / P&L (Secure)</label>
+                            <div class="file-upload" id="file-upload">
+                                <input type="file" id="fileInput" name="file" accept=".pdf,.doc,.docx,.xls,.xlsx,.csv">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                                </svg>
+                                <p>Drag and drop or click to upload</p>
+                                <span>PDF, Excel, Word — Max 10MB</span>
+                                <div class="file-name" id="file-name"></div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Request Free Assessment</button>
+
+                        <div class="form-disclaimer">
+                            <p>After submission, if your property qualifies for tax reduction, you will receive a DocuSign electronic agreement to establish our representation relationship. No fees are due unless we successfully reduce your tax liability.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">PropQuant <span>LLC</span></a>
+                    <p>Specialized commercial property tax appeal representation for Texas property owners. Decades of experience. Proven results.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Multifamily Appeals</a></li>
+                        <li><a href="#">Retail Property Appeals</a></li>
+                        <li><a href="#">Industrial / Warehouse</a></li>
+                        <li><a href="#">Mixed-Use Properties</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Contact</h4>
+                    <ul class="footer-links">
+                        <li>support@propquantllc.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 PropQuant LLC. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal-overlay" id="success-modal">
+        <div class="modal">
+            <div class="modal-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+            </div>
+            <h3>Submission Received</h3>
+            <p>Thank you for your interest. Our team will review your property details and contact you within 24 hours. If your property qualifies for tax reduction, you will receive a DocuSign electronic agreement to establish our representation relationship.</p>
+            <button class="modal-btn" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+    <script>
+        // File upload handling
+        const fileInput = document.getElementById('fileInput');
+        const fileUpload = document.getElementById('file-upload');
+        const fileName = document.getElementById('file-name');
+
+        fileInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                fileName.textContent = 'Selected: ' + file.name;
+                fileName.classList.add('show');
+                fileUpload.classList.add('has-file');
+            }
+        });
+
+        // Drag and drop handling
+        fileUpload.addEventListener('dragover', function(e) {
+            e.preventDefault();
+            fileUpload.style.borderColor = 'var(--gold-primary)';
+            fileUpload.style.background = 'rgba(201, 169, 97, 0.1)';
+        });
+
+        fileUpload.addEventListener('dragleave', function(e) {
+            e.preventDefault();
+            fileUpload.style.borderColor = '';
+            fileUpload.style.background = '';
+        });
+
+        fileUpload.addEventListener('drop', function(e) {
+            e.preventDefault();
+            fileUpload.style.borderColor = '';
+            fileUpload.style.background = '';
+        });
+
+        // Form submission
+        document.getElementById('appeal-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // Collect form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData.entries());
+
+            // In production, you would send this to your backend
+            console.log('Form submitted:', data);
+
+            // Show success modal
+            document.getElementById('success-modal').classList.add('active');
+
+            // Reset form
+            this.reset();
+            fileName.classList.remove('show');
+            fileUpload.classList.remove('has-file');
+        });
+
+        // Close modal
+        function closeModal() {
+            document.getElementById('success-modal').classList.remove('active');
+        }
+
+        // Close modal on overlay click
+        document.getElementById('success-modal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+
+        // Smooth scroll for nav links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar background on scroll
+        const nav = document.querySelector('nav');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 100) {
+                nav.style.background = 'rgba(10, 22, 40, 0.98)';
+            } else {
+                nav.style.background = 'rgba(10, 22, 40, 0.95)';
+            }
+        });
+    </script>
+</body>
+</html>
